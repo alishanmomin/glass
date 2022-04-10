@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+img {
+  width: 32%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+i {
+  padding-left: 10px;
+}
+.role {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.cards {
+  background-color: #4a4c94;
+  border: 1px solid black;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-family: fangsong;
+  padding: 2em;
+}
+@media (min-width: 600px) {
+  .cards {
+    flex-direction: row;
+  }
+  img {
+    width: 100%;
+  }
+}
